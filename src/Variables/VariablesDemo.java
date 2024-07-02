@@ -1,5 +1,7 @@
 package Variables;
 
+import java.util.Arrays;
+
 public class VariablesDemo {
     public static void main(String[] args) {
 
@@ -46,6 +48,10 @@ public class VariablesDemo {
 
 // Вывод нескольких значений переменных в терминал одной командой
         System.out.println(year + " " + name + " " + surname + " " + grade); // 1990 Tester qa B
+
+        int[] arr = new int[100];
+        arr[0] = 5;
+        System.out.println(Arrays.toString(arr));
     }
 
 }
