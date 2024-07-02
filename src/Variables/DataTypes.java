@@ -17,13 +17,20 @@ public class DataTypes {
         // Можно сразу задать переменной максимальное значение
         long l = Long.MAX_VALUE; // от -9,223,372,036,854,775,808 до -9,223,372,036,854,775,807
 
+        // Также можно для типа данных long поместить в переменную огромное число, однако
+        // в конце нужно обязательно дописать букву 'L', иначе будет ошибка
+        long l2 = 1_234_564_323_416_234_512L;
+
+
         System.out.println("This is a byte value " + b);
         System.out.println("This is a short value " + s);
         System.out.println("This is an int value " + i);
         System.out.println("This is a long value " + l);
+        System.out.println("This is a second long value " + l2);
 
 
-        // Чтобы не быть перепутанной с double, в конце значения для типа данных float указывается буква 'F'
+        // Чтобы не быть перепутанной с double, в конце значения для типа данных float
+        // указывается буква 'F'. Это не выбирается, буква обязательно должна быть прописана
         float f = 3.4028235E36F; // 3.4028236E36
         double d = Double.MAX_VALUE; // 1.7976931348623157E308
 
@@ -31,7 +38,10 @@ public class DataTypes {
         System.out.println("This is a double value " + d);
 
         boolean bool = true; // значение true/false
-        char c = 'c'; // одна буква, в одинарных ковычках
+
+        // Слово final означает, что переменную нельзя переназначать, она неизменна
+        final char c = 'c'; // одна буква, в одинарных ковычках
+
 
         System.out.println("This is a boolean value: " + bool);
         System.out.println("This is a char value: " + c);
