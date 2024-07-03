@@ -1,8 +1,8 @@
-package Variables;
+package day2;
 
 import java.util.Arrays;
 
-public class VariablesDemo {
+public class Variables {
     public static void main(String[] args) {
 
 // При создании переменной сперва всегда задается:
