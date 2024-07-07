@@ -43,9 +43,9 @@ public class IfElse {
 
         int a = 10, b = 20, c = 30;
 
-        if (a > b && a > c) {
+        if (a > b && a > c) { // оба условия должны вернуть true
             System.out.println("a is the biggest number");
-        } else if (b > a && b > c) {
+        } else if (b > a && b > c) { // оба условия должны вернуть true
             System.out.println("b is the biggest number");
         } else {
             System.out.println("c is the biggest number");
