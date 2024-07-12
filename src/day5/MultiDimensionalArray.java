@@ -7,6 +7,9 @@ public class MultiDimensionalArray {
     // Затем значения массива выводятся в консоль
 
     public static void main(String[] args) {
+
+// Вариант 1
+
         // Создание и инициализация двумерного массива
         // Массив, в котором есть еще 3 массива, каждый длиной в 3
         int[][] myArray = new int[3][3];
@@ -29,5 +32,44 @@ public class MultiDimensionalArray {
             }
             System.out.println();
         }
+
+
+// Вариант 2
+
+        // Опять же, можно заполнить массив данными и вручную:
+        String[][] myStringArray = new String[2][2];
+
+        myStringArray[0][0] = "Hello1";
+        myStringArray[0][1] = "World1";
+        myStringArray[1][0] = "Hello2";
+        myStringArray[1][1] = "World2";
+
+        // Вывод массива на экран для проверки.
+        // Используется вложенный цикл for each
+        for (String[] k : myStringArray) {
+            for (String v : k) {
+                System.out.print(v + " ");
+            }
+        }
+
+
+// Вариант 3
+
+        // Можно заполнить вложенный массив и при его создании:
+        double[][] myDoubleArray = {
+                {25, 1234},
+                {6774, 234234},
+                {1234, 7543}
+        };
+        // Вывод массива на экран для проверки.
+        // Используется вложенный цикл for each
+        for (double[] h : myDoubleArray) {
+            System.out.print("\n");
+            for (double p : h) {
+                System.out.print(p + " ");
+            }
+        }
+
+
     }
 }
