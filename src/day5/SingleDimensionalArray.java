@@ -62,10 +62,16 @@ public class SingleDimensionalArray {
             System.out.print(charArr[i] + " "); // A B C D E F
         }
 
-
         // У массива есть важная характеристика - длина
         // Вот так она определяется и выводится:
         System.out.print( "\n" + "3rd approach array len is " + charArr.length);
+        // 3rd approach array len is 6
+
+        int[] arr5 = {};
+
+        System.out.println( "\n" + arr5.length + " is an empty array len");
+        // 0 is an empty array len
+
 
     }
 }
