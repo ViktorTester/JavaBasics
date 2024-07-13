@@ -24,7 +24,7 @@ public class MultiDimensionalArray {
             }
         }
 
-        // Вывод массива на экран для проверки
+        // Вывод элементов массива на экран для проверки
         // Опять же используется вложенный цикл
         for (int i = 0; i < myArray.length; i++) {
             for (int j = 0; j < myArray[i].length; j++) {
@@ -44,7 +44,7 @@ public class MultiDimensionalArray {
         myStringArray[1][0] = "Hello2";
         myStringArray[1][1] = "World2";
 
-        // Вывод массива на экран для проверки.
+        // Вывод элементов массива на экран для проверки.
         // Используется вложенный цикл for each
         for (String[] k : myStringArray) {
             for (String v : k) {
@@ -61,15 +61,21 @@ public class MultiDimensionalArray {
                 {6774, 234234},
                 {1234, 7543}
         };
-        // Вывод массива на экран для проверки.
+        // Вывод элементов массива на экран для проверки.
         // Используется вложенный цикл for each
         for (double[] h : myDoubleArray) {
+            // Вывод символа переноса строки либо пустой строки для того,
+            // чтобы следующая строка массива печаталась с новой строки
             System.out.print("\n");
             for (double p : h) {
                 System.out.print(p + " ");
             }
         }
 
+
+        // Также можно узнать длину вложенного массива:
+        System.out.println("Длина внешнего массива равна " + myDoubleArray.length);
+        System.out.println("Длина внутреннего массива равна " + myDoubleArray[0].length);
 
     }
 }
