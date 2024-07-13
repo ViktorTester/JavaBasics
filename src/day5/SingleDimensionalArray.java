@@ -1,7 +1,5 @@
 package day5;
 
-import java.util.Arrays;
-
 public class SingleDimensionalArray {
 
     public static void main(String[] args) {
