@@ -6,7 +6,7 @@ public class replace {
     public static void main(String[] args) {
 
 // replace()
-// заменяет оин или несколько символов в строке
+// заменяет один или несколько символов в строке
 
         String s = "welcome to selenium Java selenium Python selenium C++";
 
