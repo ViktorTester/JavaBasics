@@ -1,4 +1,4 @@
-package day9_ReverseString;
+package day9;
 
 import java.util.Arrays;
 

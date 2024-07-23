@@ -1,4 +1,4 @@
-package day9_ReverseString;
+package day9;
 
 public class StringBuilderMethod {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day9_ReverseString;
+package day9;
 
 public class Immutable {
     public static void main(String[] args) {
