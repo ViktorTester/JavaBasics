@@ -1,4 +1,4 @@
-package day9_ReverseString;
+package day9;
 
 public class LoopString {
     public static void main(String[] args) {
