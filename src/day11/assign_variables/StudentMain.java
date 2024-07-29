@@ -34,10 +34,5 @@ public class StudentMain {
         stu.setStudentData(101, "David", 'A');
         stu.printStudentData(); // 101 David A
 
-
-// 3) Используя конструктор
-
-
-
     }
 }
