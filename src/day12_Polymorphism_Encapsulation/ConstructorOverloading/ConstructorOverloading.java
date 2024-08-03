@@ -1,4 +1,4 @@
-package day12_Polymorphism.ConstructorOverloading;
+package day12_Polymorphism_Encapsulation.ConstructorOverloading;
 
 public class ConstructorOverloading {
 
@@ -12,17 +12,22 @@ public class ConstructorOverloading {
         depth = 0;
     }
 
-    // Второй конструктор
+// Второй конструктор
     ConstructorOverloading(double w, double h, double d) {
         width = w;
         height = h;
         depth = d;
     }
 
-    // Третий конструктор
+// Третий конструктор
     ConstructorOverloading(double len) {
         // А можно задать переменные так, при условии, что их значения равны:
         width = height = depth = len;
+    }
+
+    // Создание метода
+    double volume(){
+        return (width * height * depth);
     }
 
 }
