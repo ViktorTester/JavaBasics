@@ -28,7 +28,7 @@ public class ConstructorDemo {
         ConstructorDemo cd = new ConstructorDemo();
         cd.sum(); // 300
 
-        // Создание объекта без параметров.
+        // Создание объекта с параметрами.
         // Будет работать параметризованный конструктор
         ConstructorDemo cd2 = new ConstructorDemo(10,20);
         cd2.sum(); // 30
