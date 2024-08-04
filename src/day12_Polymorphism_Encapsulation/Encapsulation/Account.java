@@ -30,9 +30,24 @@ public class Account {
      Нужно иметь в виду, что для доступа к одной переменной
      нужно создавать по 2 метода и если переменных не 3, а 23 -
      это может быть накладно. Поэтому в каждой IDE есть способы
-     их автоматической генерации. Для Inntellij IDEA - это:
+     их автоматической генерации. Для IntelliJ IDEA - это:
      Code -> Generate -> Getters and Setters
     */
 
+    // Сгенерированные getters и setters
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
 }
