@@ -20,5 +20,11 @@ public class accountMain {
 // Вывод значения переменной в консоль с помощью метода (getter)
         System.out.println(acc.getAccnr()); // 101
 
+        acc.setName("Bobby");
+        System.out.println(acc.getName()); // Bobby
+
+        acc.setAmount(15.17);
+        System.out.println(acc.getAmount()); // 15.17
+
     }
 }
