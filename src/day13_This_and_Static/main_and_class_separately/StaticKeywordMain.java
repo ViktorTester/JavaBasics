@@ -1,4 +1,4 @@
-package day13.main_and_class_separately;
+package day13_This_and_Static.main_and_class_separately;
 
 // main метод находится отдельно от класса, в котором инициированы статические
 // переменные и метод, необходимые нам в этом файле. Это накладывает некие ограничения:

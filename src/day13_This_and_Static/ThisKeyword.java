@@ -1,4 +1,4 @@
-package day13;
+package day13_This_and_Static;
 
 public class ThisKeyword {
 
