@@ -1,4 +1,4 @@
-package day13.main_and_class_together;
+package day13_This_and_Static.main_and_class_together;
 
 // main метод находится в одном файле с классом, в котором задаются статические переменные,
 // что позволяет обращаться к ним напрямую, без создания объекта класса

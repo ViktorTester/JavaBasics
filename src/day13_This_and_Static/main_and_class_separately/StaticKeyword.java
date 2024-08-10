@@ -1,4 +1,4 @@
-package day13.main_and_class_separately;
+package day13_This_and_Static.main_and_class_separately;
 
 // Класс находится отдельно от main метода, в котором нам
 // нужно обратится к переменным этого класса
