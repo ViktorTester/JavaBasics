@@ -1,4 +1,4 @@
-package day15_Final_and_Super;
+package day15_Final_and_Super.final_keyword;
 
 // Создан класс
 class Test {
@@ -9,7 +9,7 @@ class Test {
     final int y = 123;
 }
 
-public class FinalKeyword {
+public class FinalVariable {
     public static void main(String[] args) {
 
         // Создание объекта класса
@@ -24,7 +24,8 @@ public class FinalKeyword {
         // Но можно наложить на такую переменную ограничение,
         // и переназначить ее при вызове через
         // объект уже не получится
-        t.y = 777; // Система не позволяет переназначить переменную
+
+        // t.y = 777; // Система не позволяет переназначить переменную
 
     }
 }
