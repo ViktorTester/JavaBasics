@@ -3,10 +3,10 @@ package day8_StringMethods;
 public class length {
     public static void main(String[] args) {
 
-// length()
+// len()
 // определение длины строки
 
         String s = "Hello World";
-        System.out.println("s length is " + s.length()); // 11
+        System.out.println("s len is " + s.length()); // 11
     }
 }
