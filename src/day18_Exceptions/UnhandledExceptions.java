@@ -3,10 +3,6 @@ package day18_Exceptions;
 public class UnhandledExceptions {
     public static void main(String[] args) {
 
-        // 1 - Код для отображения начала программы
-        System.out.println("Program is started");
-
-
 // java.lang.ArithmeticException: / by zero
         // Вывод результата деления 100 на 0
         System.out.println(100 / 0);
