@@ -1,4 +1,4 @@
-package day18_Exceptions;
+package day18_Exceptions.UncheckedExceptions;
 
 public class UnhandledExceptions {
     public static void main(String[] args) {
