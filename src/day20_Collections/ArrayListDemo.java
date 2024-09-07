@@ -11,11 +11,11 @@ public class ArrayListDemo {
 
 // Объявление
     // Хранение различных типов объектов
-        // Метод 1
+      // Метод 1
         // Создание объекта класса (не забыть про его импорт)
         ArrayList arr = new ArrayList();
 
-        // Метод 2
+      // Метод 2
         // Создание объекта класса ArrayList() и помещение
         // его в переменную родительского интерфейса List().
         List arr2 = new ArrayList();
@@ -25,7 +25,7 @@ public class ArrayListDemo {
         // хранимых в нем объектов - Строки
         ArrayList<String> arr3 = new ArrayList<String>();
 
-        // Создание объекта класса с указанием типа хранимы
+        // Создание объекта класса с указанием типа хранимых
         // в нем объектов - все методы из класса Animals
         ArrayList<Animals> arr4 = new ArrayList<Animals>();
 
@@ -154,6 +154,41 @@ public class ArrayListDemo {
             System.out.println(it.next());
         }
         System.out.println("------------------------------------------------");
+
+
+// Проверка заполненности
+    // isEmpty();
+        // если массив пустой, то будет возвращено true,
+        // в противном случае - false
+        System.out.println(arr.isEmpty());  // false
+        System.out.println("------------------------------------------------");
+
+
+// Удаление нескольких элементов массива
+    // removeAll()
+        // Есть метод clear(), который очищает весь массив, также есть
+        // метод remove(), удаляющий один элемент. Но что если нужно удалить
+        // сразу несколько различных элементов? Тут пригодится метод removeAll()
+
+        // Методу removeAll() как параметр нужно передать другой массив.
+        // И из первого массива будут удалены все элементы, которые
+        // находятся в переданном массиве.
+        System.out.println("Before removing all: " + arr);  // [100, 10.5, X, Welcome, A, 100, 1234, Hello World]
+
+        arr2.add(10.5);
+        arr2.add("Hello World");
+        arr2.add('A');
+
+        arr.removeAll(arr2);
+        System.out.println("After removing all: " + arr);  // [100, X, Welcome, 100, 1234]
+        System.out.println("------------------------------------------------");
+
+
+// Удаление всех элементов массива
+    // clear()
+        System.out.println("Before deleting all elements: " + arr);  // [100, X, Welcome, 100, 1234]
+        arr.clear();
+        System.out.println(arr.isEmpty()); // true
 
     }
 }
